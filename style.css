@@ -1,0 +1,206 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: "Lato", sans-serif;
+}
+
+.header {
+  display: flex;
+}
+
+.one {
+  display: flex;
+  gap: 20px;
+}
+
+.bars {
+  width: 20px;
+}
+
+.one {
+  margin-right: 300px;
+}
+
+.youtube-logo {
+  margin-top: 8px;
+  width: 110px;
+  height: 25px;
+}
+
+.left {
+  margin-left: 25px;
+}
+
+input {
+  border-radius: 15px 0 0 15px;
+  width: 550px;
+  height: 32px;
+  margin-top: 10px;
+  border: black 0.1px solid;
+  padding-left: 10px;
+  margin-right: 1px;
+}
+.two {
+  display: flex;
+  position: relative;
+  right: 80px;
+  margin-right: 150px;
+}
+
+input:focus {
+  outline: 1px #009fe1 solid;
+}
+
+.search {
+  margin-top: 10px;
+  width: 50px;
+  height: 32px;
+  background-color: #e1e1e1;
+  border-radius: 0px 20px 20px 0px;
+  padding: 5px 0;
+}
+
+.mic {
+  padding: 5px 0;
+  margin-left: 15px;
+  margin-top: 10px;
+  width: 32px;
+  height: 32px;
+  background-color: #e1e1e1;
+  border-radius: 50%;
+}
+.three {
+  display: flex;
+
+  gap: 20px;
+}
+
+.video-add {
+  margin-top: 10px;
+  height: 32px;
+}
+
+.bell {
+  margin-top: 10px;
+  height: 32px;
+}
+
+.avatar {
+  margin-top: 10px;
+  height: 32px;
+}
+
+.side-panel {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  width: 70px;
+}
+
+.side-panel img {
+  width: 30px;
+  height: 30px;
+}
+
+.lt {
+  margin-left: 20px;
+}
+
+.home h6 {
+  padding-left: 20px;
+}
+
+.compass h6 {
+  padding-left: 12px;
+}
+
+.video-gallary h6 {
+  padding-left: 3px;
+}
+
+.video-library h6 {
+  padding-left: 17px;
+}
+
+.content {
+  display: flex;
+}
+
+.tag {
+  display: flex;
+  margin-top: 30px;
+  gap: 10px;
+  padding-left: 20px;
+  margin-bottom: 20px;
+}
+
+.tag .all h5 {
+  background-color: #000000;
+  color: white;
+  border-radius: 10px;
+  padding: 8px 14px;
+}
+
+.grey h5 {
+  background-color: #eeeeee;
+  color: black;
+  border-radius: 10px;
+  padding: 8px 14px;
+  text-align: center;
+  transition: 0.1s ease-in-out;
+}
+
+.tag .all h5:hover {
+  cursor: pointer;
+}
+
+.grey h5:hover {
+  cursor: pointer;
+  background-color: rgb(240, 243, 248);
+  transition: 0.1s ease-in-out;
+}
+
+.grid {
+  margin-left: 20px;
+}
+
+.grid {
+  background-color: #eeeeee;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+
+  width: 1350px;
+}
+
+.videos {
+  padding: 30px 0 15px 15px;
+}
+
+.title {
+  display: flex;
+  margin-top: 10px;
+  width: 280px;
+}
+.title-avatar {
+  margin-right: 10px;
+}
+
+.videos .thumbnail {
+  width: 313px;
+  border-radius: 10px;
+}
+
+.channel-name h5 {
+  margin-top: 5px;
+  margin-left: 50px;
+  color: #484848;
+}
+
+@media (max-width: 468px) {
+  .grid {
+    grid-template-columns: 1fr;
+  }
+}
